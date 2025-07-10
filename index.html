@@ -3,34 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <title>Celluloid Pulse 🎥✨</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="సినిమా రహస్యాలు & ఫిల్మ్ మేకింగ్ టెక్నిక్స్ — అన్నీ తెలుగులో!">
   <style>
-    body { font-family: sans-serif; text-align: center; background: #111; color: #fff; margin: 0; padding: 0; }
-    header img { width: 100%; max-width: 100%; }
-    p { max-width: 600px; margin: 10px auto; }
-    a { color: #ffcc00; text-decoration: none; }
-    .button { padding: 10px 20px; background: #ffcc00; color: #000; border-radius: 5px; display: inline-block; margin: 20px auto; }
-    .videos { margin-top: 30px; }
-    .videos p { margin: 5px 0; }
-    footer { margin-top: 40px; font-size: 0.9em; color: #aaa; padding-bottom: 20px; }
+    body {
+      font-family: 'Segoe UI', 'Noto Sans Telugu', sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header img {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px 10px 0 10px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+      letter-spacing: 1px;
+    }
+    h2 {
+      color: #ffcc00;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+      font-size: 1.4em;
+    }
+    p {
+      max-width: 600px;
+      margin: 12px auto;
+      line-height: 1.7;
+      font-size: 1.1em;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover, a:focus {
+      color: #ffe066;
+      text-decoration: underline;
+    }
+    .button {
+      padding: 12px 28px;
+      background: linear-gradient(90deg, #ffcc00 60%, #ffe066 100%);
+      color: #111;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 30px auto 0 auto;
+      font-weight: bold;
+      font-size: 1.1em;
+      box-shadow: 0 2px 10px rgba(255, 204, 0, 0.1);
+      transition: background 0.2s;
+    }
+    .button:hover, .button:focus {
+      background: linear-gradient(90deg, #ffe066 60%, #ffcc00 100%);
+      color: #000;
+    }
+    .videos {
+      margin-top: 35px;
+    }
+    .videos ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+    .videos li {
+      margin: 10px 0;
+      font-size: 1.08em;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.95em;
+      color: #aaa;
+      padding-bottom: 18px;
+      letter-spacing: 0.5px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://celluloidpulse.github.io/A_banner_graphic_for_Celluloid_Pulse_is_designed.png" alt="Celluloid Pulse Banner">
+    <img src="https://celluloidpulse.github.io/A_banner_graphic_for_Celluloid_Pulse_is_designed.png" alt="Celluloid Pulse Banner" />
   </header>
-  <p>సినిమా రహస్యాలు & ఫిల్మ్ మేకింగ్ టెక్నిక్స్ — అన్నీ తెలుగులో!</p>
-  <h2>About</h2>
-  <p>Celluloid Pulse లో మనం ప్రతి ఫ్రేమ్ వెనుక ఉన్న ఆర్ట్ ని, cinema secrets ని explore చేస్తాం.</p>
-  <div class="videos">
-    <h2>Featured Videos</h2>
-    <p><a href="YOUTUBE_LINK_1" target="_blank">Day 1: Cut అంటే ఏంటి?</a></p>
-    <p><a href="YOUTUBE_LINK_2" target="_blank">Day 2: Frame అంటే ఏంటి?</a></p>
-    <p><a href="YOUTUBE_LINK_3" target="_blank">Day 3: Montage అంటే ఏంటి?</a></p>
-    <p><a href="YOUTUBE_CHANNEL_LINK" target="_blank">More videos →</a></p>
-  </div>
-  <a class="button" href="YOUTUBE_CHANNEL_LINK" target="_blank">Subscribe on YouTube</a>
+  <main>
+    <h1>Celluloid Pulse</h1>
+    <p>సినిమా రహస్యాలు &amp; ఫిల్మ్ మేకింగ్ టెక్నిక్స్ — అన్నీ తెలుగులో!</p>
+    <h2>మా గురించి</h2>
+    <p>
+      <strong>Celluloid Pulse</strong> లో ప్రతి ఫ్రేమ్ వెనుక ఉన్న కళను, సినిమా సీక్రెట్స్‌ను, ఫిల్మ్ మేకింగ్ టెక్నిక్స్‌ను తెలుగులో వివరంగా తెలుసుకుందాం. సినిమా ప్రేమికుల కోసం, ప్రొఫెషనల్‌గా &amp; సృజనాత్మకంగా!
+    </p>
+    <section class="videos">
+      <h2>ప్రధాన వీడియోలు</h2>
+      <ul>
+        <li><a href="YOUTUBE_LINK_1" target="_blank" rel="noopener">Day 1: Cut అంటే ఏంటి?</a></li>
+        <li><a href="YOUTUBE_LINK_2" target="_blank" rel="noopener">Day 2: Frame అంటే ఏంటి?</a></li>
+        <li><a href="YOUTUBE_LINK_3" target="_blank" rel="noopener">Day 3: Montage అంటే ఏంటి?</a></li>
+        <li><a href="YOUTUBE_CHANNEL_LINK" target="_blank" rel="noopener">ఇంకా వీడియోలు చూడండి →</a></li>
+      </ul>
+    </section>
+    <a class="button" href="YOUTUBE_CHANNEL_LINK" target="_blank" rel="noopener">YouTube లో Subscribe చేయండి</a>
+  </main>
   <footer>
-    <p>© 2025 Celluloid Pulse. Crafted with 🎥 & ❤️</p>
+    © 2025 Celluloid Pulse. Crafted with 🎥 &amp; ❤️
   </footer>
 </body>
 </html>
